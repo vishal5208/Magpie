@@ -10,6 +10,10 @@ import arbi from "./arbi.svg";
 import downWhiteArrow from "./down-white-arrow.svg";
 import moonLogo from "./moon.svg";
 import line from "./line.svg";
+import magpieName from "./magpieName.svg";
+import onlyMagpie from "./onlyMagpie.svg";
+import bear from "./bear.svg";
+import wallet from "./wallet.svg";
 
 export {
 	arrow,
@@ -24,4 +28,8 @@ export {
 	downWhiteArrow,
 	moonLogo,
 	line,
+	magpieName,
+	onlyMagpie,
+	bear,
+	wallet,
 };

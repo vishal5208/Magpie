@@ -1,12 +1,16 @@
 import "./Header.css";
 import {
-	MagpieLogo,
+	onlyMagpie,
 	downArrow,
 	pendleImg,
 	carretDown,
 	arbi,
 	downWhiteArrow,
 	moonLogo,
+	magpieName,
+	MagpieLogo,
+	bear,
+	wallet,
 } from "../../assests";
 
 const Header = () => {
@@ -80,7 +84,24 @@ const Header = () => {
 				</div>
 			</header>
 
-			<header className="main-header-mobile">vishal</header>
+			<header className="main-left-header-mobile">
+				<img src={magpieName} alt="" />
+				<div className="main-right-header-mobile">
+					<div className="logo-and-dollor-container">
+						<img src={onlyMagpie} alt="" />
+						<p>$0.0</p>
+					</div>
+
+					<div className="logo-and-dollor-container">
+						<img src={bear} alt="" />
+						<p>$0.0</p>
+					</div>
+
+					<div>
+						<img src={wallet} alt="" />
+					</div>
+				</div>
+			</header>
 		</>
 	);
 };
