@@ -1,10 +1,12 @@
 import "./App.css";
-import { Content } from "./components";
+import { Content, Header, Referral } from "./components";
 
 function App() {
 	return (
 		<div>
+			<Header />
 			<Content />
+			<Referral />
 		</div>
 	);
 }

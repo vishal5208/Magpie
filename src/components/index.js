@@ -1,3 +1,5 @@
 import Content from "./Content/Content";
+import Header from "./Header/Header";
+import Referral from "./Referral/Referral";
 
-export { Content };
+export { Content, Header, Referral };

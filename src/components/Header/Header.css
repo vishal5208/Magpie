@@ -1,0 +1,303 @@
+.main-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 32px;
+	background: #f0f6ff;
+}
+
+@media (max-width: 450px) {
+	.main-header {
+		display: none;
+	}
+
+	.main-header-mobile {
+		display: flex !important;
+
+		height: 10;
+		background-color: black;
+	}
+}
+
+.main-header-mobile {
+	display: none;
+}
+
+.left-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-left: 40px;
+	gap: 12px;
+
+	width: 601.52px;
+	height: 46px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.magpie-logo-div {
+	width: 143.52px;
+	height: 46px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.pendle-main-container {
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 10px;
+	gap: 10px;
+
+	width: 140px;
+	height: 42px;
+
+	/* Blue */
+
+	border: 1.6px solid #137ce7;
+	border-radius: 4px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.pendle-sub-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 20px;
+
+	width: 114px;
+	height: 26px;
+
+	padding-right: 30px;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	position: relative;
+}
+
+.pendle-img-div {
+	width: 26px;
+	height: 26px;
+
+	/* background: url("../../assests/pendle.svg"); */
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.pendle-main-container p {
+	width: 50px;
+	height: 17px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	/* identical to box height */
+
+	letter-spacing: 0.02em;
+
+	/* deep blue */
+
+	color: #0b366b;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.down-arrow-div {
+	position: absolute;
+	top: 1px;
+	left: 115px;
+}
+
+.header-menu {
+	margin-left: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+
+	width: 350px;
+	height: 38px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+
+.header-menu .outer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2px 9px;
+	gap: 10px;
+
+	width: 60px;
+	height: 38px;
+
+	border-radius: 100px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	position: relative;
+}
+
+.inner-text {
+	width: 46px;
+	height: 19px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	/* deep blue */
+
+	color: #0b366b;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.carrent-down-div {
+	position: absolute;
+	left: 65px;
+	top: 10px;
+}
+
+/*right header*/
+.right-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 12px;
+
+	width: 462px;
+	height: 40px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.language {
+	width: 25px;
+	height: 22px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+
+	letter-spacing: 0.02em;
+
+	color: #000000;
+
+	/* Inside auto layout */
+}
+
+.connect-wallet {
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 18px;
+	gap: 10px;
+
+	width: 223px;
+	height: 40px;
+
+	background: #137ce7;
+	border: 2px solid #137ce7;
+	border-radius: 200px;
+
+	position: relative;
+}
+
+.wallet-address {
+	width: 153px;
+	height: 19px;
+
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+
+.connect-wallet-down-arrow {
+	position: absolute;
+	left: 191px;
+	top: 7px;
+}
+
+.moon-div {
+	width: 24px;
+	height: 24px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 5;
+	flex-grow: 0;
+}
