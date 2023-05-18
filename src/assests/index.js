@@ -9,6 +9,7 @@ import carretDown from "./caret-down.svg";
 import arbi from "./arbi.svg";
 import downWhiteArrow from "./down-white-arrow.svg";
 import moonLogo from "./moon.svg";
+import line from "./line.svg";
 
 export {
 	arrow,
@@ -22,4 +23,5 @@ export {
 	arbi,
 	downWhiteArrow,
 	moonLogo,
+	line,
 };

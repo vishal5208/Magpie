@@ -1,6 +1,7 @@
 import "./Content.css";
 import { arrow, tokenLogo, zap, arrow2 } from "../../assests";
 
+
 const Content = () => {
 	return (
 		<section className="main-content-section">
