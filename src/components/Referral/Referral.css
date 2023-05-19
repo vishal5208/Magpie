@@ -4,7 +4,10 @@
 	align-items: center;
 	padding: 0px;
 	gap: 32px;
-	height: 500px;
+	height: 550px;
+
+	background: rgba(116, 172, 255, 0.24);
+	backdrop-filter: blur(20px);
 
 	/* Inside auto layout */
 
@@ -13,6 +16,7 @@
 	flex-grow: 0;
 	/* background: rgba(116, 172, 255, 0.24); */
 	backdrop-filter: blur(20px);
+	margin-bottom: 10px;
 }
 
 .referral-and-line-container {
@@ -34,6 +38,7 @@
 	flex: none;
 	order: 0;
 	flex-grow: 0;
+	padding: 16px;
 }
 
 .liquidity-pool p {
