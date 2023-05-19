@@ -110,6 +110,17 @@ const Content = () => {
 					</div>
 				</div>
 			</div>
+
+			<div className="new-2-blocks-for-mobile">
+				<div className="referral-info-mobile">
+					<p className="numbers">0.0%</p>
+					<p className="friend">Total Rewards</p>
+				</div>
+				<div className="referral-info-mobile">
+					<p className="numbers">0.0%</p>
+					<p className="friend">Friends</p>
+				</div>
+			</div>
 		</section>
 	);
 };

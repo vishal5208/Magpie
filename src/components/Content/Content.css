@@ -194,6 +194,76 @@
 		font-size: 12px;
 	}
 
+	.new-2-blocks-for-mobile {
+		display: flex !important;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 6px;
+		gap: 6px;
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+
+	.referral-info-mobile {
+		box-sizing: border-box;
+
+		/* Auto layout */
+
+		display: flex !important;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 6px 8px;
+		gap: 6px;
+		width: 81%;
+		background: #ffffff;
+		border-radius: 6px;
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+
+	.referral-info-mobile p {
+		margin: 0;
+	}
+
+	.referral-info-mobile .friend {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		/* identical to box height */
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.06em;
+
+		color: #658aaf;
+	}
+
+	.referral-info-mobile .numbers {
+		font-weight: 600;
+		font-size: 17px;
+		line-height: 27px;
+		/* identical to box height */
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.02em;
+
+		/* deep blue */
+
+		color: #0b366b;
+	}
+
 	.referral-info {
 		width: 37% !important;
 		margin-right: 0;
@@ -353,6 +423,10 @@
 /* end of mediaqury */
 
 .about-earn-mobile {
+	display: none;
+}
+
+.new-2-blocks-for-mobile {
 	display: none;
 }
 
