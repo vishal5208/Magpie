@@ -90,19 +90,30 @@
 }
 
 .referral-details-data-p {
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
+	line-height: 162.02%;
+	/* identical to box height, or 23px */
 
 	letter-spacing: 0.02em;
 	text-decoration-line: underline;
 
 	color: #658aaf;
-	display: flex;
-	justify-content: center;
 }
 
 @media (max-width: 450px) {
+	.referral-details-data-p {
+		font-weight: 500;
+		font-size: 12px !important;
+		line-height: 162.02%;
+		/* identical to box height, or 23px */
+
+		letter-spacing: 0.02em;
+		text-decoration-line: underline;
+
+		color: #658aaf;
+	}
+
 	.referral-details {
 		grid-template-columns: 1fr 1fr;
 		padding: 10px;

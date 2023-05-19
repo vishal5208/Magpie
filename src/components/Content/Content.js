@@ -121,6 +121,19 @@ const Content = () => {
 					<p className="friend">Friends</p>
 				</div>
 			</div>
+
+			<div className="new-3-mobile-blocks">
+				<div className="mgp-info">
+					<div className="something-new">
+						<img src={tokenLogo} alt="" />
+						<div className="inner-mgp">
+							<p className="mgp-number">0 MGP</p>
+							<p className="reward">Your Rewards</p>
+						</div>
+					</div>
+					<button className="btn-claim">Claim Rewards</button>
+				</div>
+			</div>
 		</section>
 	);
 };
