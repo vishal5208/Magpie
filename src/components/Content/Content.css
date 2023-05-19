@@ -8,6 +8,11 @@
 
 	position: relative;
 }
+
+.main-content-section-mobile {
+	display: none;
+}
+
 .refer-texts-container {
 	box-sizing: border-box;
 	display: flex;
@@ -35,8 +40,6 @@
 }
 
 .refer-texts-container .first p {
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 28px;
 	line-height: 162.02%;
@@ -174,6 +177,136 @@
 	margin: 0;
 }
 
+/* mediaquery */
+@media (max-width: 450px) {
+	.refer-texts-container {
+		width: auto;
+		padding: 16px;
+		flex-direction: column;
+		top: initial;
+		left: initial;
+		transform: none;
+	}
+
+	.inner-content-section {
+		padding: 16px;
+	}
+
+	.about-earn {
+		font-size: 12px;
+	}
+
+	.referral-info {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 12px;
+	}
+
+	.refer-texts-container .friend {
+		width: 100%;
+	}
+
+	.mgp-info {
+		width: 100%;
+	}
+
+	.mgp-info .inner-mgp {
+		width: 100%;
+	}
+
+	.mgp-number {
+		font-size: 18px;
+	}
+
+	.group-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.inner-content-section .first {
+		display: none;
+	}
+
+	.first-mobile {
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.first-mobile p {
+		font-size: 26px;
+		font-weight: 700;
+
+		line-height: 162.02%;
+		/* or 45px */
+
+		letter-spacing: 0.02em;
+
+		/* deep blue */
+
+		color: #0b366b;
+		margin: 0;
+		padding: 0;
+	}
+	.about-earn {
+		display: none;
+	}
+
+	.about-earn-mobile {
+		display: flex !important;
+		flex-direction: column;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 50.02%;
+
+		text-align: center;
+		letter-spacing: 0.02em;
+
+		/* deep blue */
+
+		color: #0b366b;
+	}
+
+	.about-earn-mobile p {
+		margin: 10px auto;
+	}
+
+	.inner-content-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.arrow-img {
+		top: 15px;
+		left: 130px;
+	}
+
+	.rule p {
+		font-size: 14px;
+	}
+
+	.group-container {
+		display: none;
+	}
+
+	.main-referral-data-container {
+		padding: 16px;
+		gap: 16px;
+	}
+}
+
+.first-mobile {
+	display: none;
+}
+
+/* end of mediaqury */
+
+.about-earn-mobile {
+	display: none;
+}
+
 .mgp-info {
 	box-sizing: border-box;
 
@@ -303,9 +436,6 @@
 	padding: 24px;
 	gap: 24px;
 
-	width: 458px;
-	height: 343px;
-
 	background: #e4edff;
 	border-radius: 10px;
 
@@ -320,7 +450,6 @@
 	width: 20px;
 	height: 20px;
 	top: 13px;
-
 	left: 196px;
 }
 

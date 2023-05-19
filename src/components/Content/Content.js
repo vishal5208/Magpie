@@ -1,7 +1,6 @@
 import "./Content.css";
 import { arrow, tokenLogo, zap, arrow2 } from "../../assests";
 
-
 const Content = () => {
 	return (
 		<section className="main-content-section">
@@ -14,9 +13,25 @@ const Content = () => {
 							Earn <span className="mgp"> $MGP</span> Together.
 						</p>
 					</div>
+
+					{/* first for mobile */}
+					<div className="first-mobile">
+						<p>Refer Friends.</p>
+						<p>
+							Earn <span className="mgp"> $MGP</span> Together.
+						</p>
+					</div>
+
 					<p className="about-earn">
 						Earn up to 15% of the $MGP that your friends earn on Magpie.
 					</p>
+
+					{/* about-earn fro mobile */}
+
+					<div className="about-earn-mobile">
+						<p>Earn up to 15% of the $MGP that your</p>
+						<p>friends earn on Magpie.</p>
+					</div>
 
 					<div className="rule">
 						<p>View referral rules</p>
@@ -44,6 +59,7 @@ const Content = () => {
 
 				{/* 2nd box */}
 				<div className="main-referral-data-container">
+					
 					{/* tier boost upgrade */}
 					<div className="to-boost-container">
 						<div className="group-of-2-boost">
