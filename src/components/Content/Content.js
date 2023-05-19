@@ -59,7 +59,6 @@ const Content = () => {
 
 				{/* 2nd box */}
 				<div className="main-referral-data-container">
-					
 					{/* tier boost upgrade */}
 					<div className="to-boost-container">
 						<div className="group-of-2-boost">
